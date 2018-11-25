@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+schemas/*
+config.js
+*.bat
+winservice.js
+README.md
+LICENSE.md
+logs/*
