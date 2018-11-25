@@ -79,6 +79,7 @@ module.exports = {
     SUBSONICSERVER: 'http://192.168.1.1:4040',
     SUBSONICUSERNAME: '',
     SUBSONICPASSWORD: '',
+    HTTP: false,
     SSLCERTIFICATECA: './sslcert/ca-xxx.duckdns.org-crt.pem',
     SSLCERTIFICATECERT: './sslcert/xxx.duckdns.org-crt.pem',
     SSLCERTIFICATEKEY: './sslcert/xxx.duckdns.org-key.pem',

@@ -4,6 +4,9 @@
             "locales": {
                 "en-US": {
                     "name": "subsonic"
+                },
+                "de-DE": {
+                    "name": "subsonic"
                 }
             }
         },
