@@ -72,7 +72,7 @@ app.post('/remote', (req, res) => {
 subsonic.open(config.SUBSONICSERVER, config.SUBSONICUSERNAME, config.SUBSONICPASSWORD);
 
 if (config.HTTP == true) {
-    app.listen(80, () => {
+    app.listen(8080, () => {
         logger.info('http-Skill-Server started');
     });
 }
