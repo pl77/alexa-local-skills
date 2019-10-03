@@ -64,13 +64,13 @@ Once they are renewed you have to recopy them and restart the server.
     - It is required to have an Amazon developer account: [Alexa console](https://developer.amazon.com/alexa/console/ask)
     - Install Alexa CLI: `npm install -g ask-cli`
     - Link to your developer account: `ask init` (choose: `No. Skip AWS credentials association step.` when asked)
-    - Deloy skills:
+    - Deploy skills:
         - Skills schemas are places in `schemas` folder
         - Change url in skill manifest file `skill.json` (replace `https://xxx.duckdns.org/remote` with your duckdns account)
         - To deploy them run `deploy.bat` in each folder from `schemas`.
         - Adapt skill ids in `config.js` (skill ids can be found in `.ask` folder)
 
-- Create configuration file `config.js`:
+- Create configuration file `config.js` (or rename the included `config.js.tmpl`):
 
 ```
 module.exports = {
